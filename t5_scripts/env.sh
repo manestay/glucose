@@ -9,7 +9,7 @@ export INPUT_FILE=${ROOT}/glucose/t5_data/t5_test_data.txt
 
 export PROJECT=stories-305118
 export ZONE=your_project_zone
-export BUCKET=gs://yourbucket/
-export TPU_NAME=t5-tpu
-export MODEL_DIR=${ROOT}/t5_models/
+export BUCKET=gs://stories-gcp/
+export TPU_NAME=grpc://10.117.169.58:8470
+export MODEL_DIR=${ROOT}/t5_models/finetuned/
 export DATA_DIR=${ROOT}/t5_tfds/
